@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(147, 168, 147);
+    background: url(quino-al-JFeOy62yjXk-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* box-shadow: 0 0 10px rgba(0,0,0, .2); */
+    /* backdrop-filter: blur(20px); */
+}
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgb(147, 168, 147);
+    color: white;
+    border-radius: 20px;
+    padding: 30px 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    backdrop-filter: blur(20px);
+}
+.wrapper h1{
+   
+    font-size: 32px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+    margin: 30px 0;
+}
+.input-box input{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 48px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box box-icon{
+    position: absolute;
+    right: 20px;
+    top: 25%;
+
+}
+.wrapper .remeber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remeber-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+.remeber-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.remeber-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .registration-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.registration-link p a{
+    color: fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.registration-link p a:hover{
+    text-decoration: underline;
+}
